@@ -169,8 +169,13 @@ footer {
   display: block;
   float: left;
   margin: 0 1em; }
+#news div.article {
+  padding: 1em 0; }
 
 /* NEWS */
+p.date, p.author {
+  margin: 0; }
+
 .news-tile h4.title {
   font-size: 1rem;
   font-weight: 600;

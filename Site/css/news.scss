@@ -6,10 +6,19 @@
 			margin: 0 1em;
 		}
 	}
+
+	div.article {
+		padding: 1em 0;
+	}
 }
 
 /* NEWS */
 
+p {
+	&.date, &.author{
+		margin: 0;
+	}
+}
 .news-tile {
 	h4.title {
 		font-size: 1rem;

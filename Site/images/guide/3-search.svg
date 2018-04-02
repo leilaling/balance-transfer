@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="111px" viewBox="0 0 148 111" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="76.5556254%" y1="120.123512%" x2="23.0672533%" y2="-17.2803538%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="79.5487824%" y1="-127.170675%" x2="11.3610537%" y2="228.31703%" id="linearGradient-2">
+            <stop stop-color="#FFB82A" offset="0%"></stop>
+            <stop stop-color="#FFEA7F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.000507968886%" y1="49.9997279%" x2="99.9987048%" y2="49.9997279%" id="linearGradient-3">
+            <stop stop-color="#FFB82A" offset="0%"></stop>
+            <stop stop-color="#FFEA7F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Guide-3" transform="translate(-1224.000000, -1064.000000)">
+            <g id="search" transform="translate(1224.000000, 1064.000000)">
+                <path d="M5.81395349,11 L142.186047,11 C145.397004,11 148,13.6084551 148,16.8261476 L148,111 L0.639534884,110.999998 C0.303723923,111.000889 0.0244215237,110.741356 0,110.405731 L0,16.8261476 C-8.90247372e-16,13.6084551 2.60299564,11 5.81395349,11 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(74.000000, 61.000000) rotate(-180.000000) translate(-74.000000, -61.000000) "></path>
+                <path d="M145.104651,2.3808955e-05 L2.90697674,2.3808955e-05 C2.13908062,-0.0031100245 1.40140864,0.303249235 0.856243401,0.851704732 C0.311078162,1.40016023 0.00307772769,2.14578437 0,2.92454515 L0,10 L148,10 L148,2.92454515 C148.000006,2.14686637 147.694591,1.40121022 147.151271,0.852415834 C146.607951,0.303621447 145.871474,-0.00311199261 145.104651,2.3808955e-05 Z" id="Shape" fill="#3F3D59" fill-rule="nonzero"></path>
+                <circle id="Oval" fill="#FF6363" fill-rule="nonzero" cx="7" cy="5" r="2"></circle>
+                <circle id="Oval" fill="#FFCC54" fill-rule="nonzero" cx="13" cy="5" r="2"></circle>
+                <circle id="Oval" fill="#73CC72" fill-rule="nonzero" cx="19" cy="5" r="2"></circle>
+                <rect id="Rectangle-path" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(92.000000, 76.500000) rotate(125.730000) translate(-92.000000, -76.500000) " x="89" y="56" width="6" height="41" rx="2.25"></rect>
+                <circle id="Oval" stroke="url(#linearGradient-3)" stroke-width="5" cx="61.5" cy="52.5" r="19.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

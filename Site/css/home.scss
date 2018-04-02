@@ -1,0 +1,50 @@
+#home {
+	header {
+		position: relative;
+
+		.hero {
+			background-image: url(../images/calculator.svg);
+			background-position: center center;
+			background-size: contain;
+	 		background-repeat: no-repeat;
+	 		height: 480px;
+	 		width: 100%;	
+	 		z-index: 2;
+		}
+
+		.bg-header {
+			background-image: url(../images/bg-hero.svg);
+			background-size: cover;
+	 		background-repeat: no-repeat;
+	 		height: 480px;
+	 		width: 100%;
+	 		position: absolute;
+	 		bottom: 0;
+	 		left: 0;
+	 		z-index: 0;
+	 		opacity: .8;
+		}
+
+		.bg-slant {
+		 	background-color: white;
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    height: 210px;
+	    clip-path: polygon(0 100%, 100% 0,100% 100%);
+		}
+
+		h1 {
+			margin-bottom: 0;
+			line-height: 1.5;
+			font-size: 2rem;
+			padding: 0;
+		
+			+ .button {
+				margin: 1em auto;
+				display: inline-block;
+			}
+		}
+	}
+}

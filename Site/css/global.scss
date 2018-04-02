@@ -1,0 +1,181 @@
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: $white;
+	color: $black;
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	border: none;
+	color: $green;
+	
+	&:hover {
+		color: $green;
+		text-decoration: none;
+	}
+}
+
+h1 {
+	font-size: 1.8em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.6em;
+	color: #1DD1A1;
+	text-align: center;
+
+	+ p {
+		font-size: 1.3em;
+		text-align: center;
+	}
+}
+
+section {
+	padding: 4em 0;
+
+	ul {
+		list-style-type: disc;
+		font-size: 1em;
+		font-weight: 300;
+	}
+}
+
+button, .button {
+	padding: .65em 1.5em;
+	background-color: $gold;
+	border-radius: 3px;
+	color: $white;
+	font-weight: 700;
+	font-size: 1.1rem;
+	box-shadow: none;
+	cursor: pointer;
+	letter-spacing: .85px;
+	border: none;
+
+	&:hover {
+		color: $white;
+	}
+}
+
+.dropdown-menu {
+	max-width: 350px;
+	border-color: $light-gray;
+
+	.dropdown-item {
+		padding: .5rem .5rem;
+		white-space: normal;
+		font-size: .95rem;
+		line-height: 1.45;
+		color: $green;
+	}
+}
+
+form {
+	label {
+		text-transform: uppercase;
+		font-size: .75em;
+		color: $dark-gray;
+		line-height: 0;
+		text-align: left;
+	}
+
+	.form-control {
+		border-radius: 0;
+	}
+}
+
+/* NAV */
+nav {
+	&.navbar {
+		padding: 0;
+	}
+
+	.navbar-nav {
+		.nav-item {
+			padding: .5rem 1rem;
+
+			a.nav-link {
+				color: $white;
+				font-size: 1.2em;
+				padding: .1rem 0;
+				display: inline-block;
+
+				&.active {
+					color: $white;
+					border-bottom: 2px solid $white;
+				}
+
+				&:hover {
+					color: $white;
+				}
+			}
+		}
+	}
+
+	.navbar-toggler {
+		border: none;
+	}
+}
+	
+/* HEADER */
+header {
+	background: #0cebeb;
+	background: -moz-linear-gradient(-45deg, #0cebeb 0%, #20e3b2 50%, #29ffc6 100%);
+	background: -webkit-linear-gradient(-45deg, #0cebeb 0%,#20e3b2 50%,#29ffc6 100%);
+	background: linear-gradient(135deg, #0cebeb 0%,#20e3b2 50%,#29ffc6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0cebeb', endColorstr='#29ffc6',GradientType=1 );
+	color: $white;
+
+	h1 {
+		padding: 2.5em 0;
+	}
+}
+
+/* STAY IN THE KNOW */
+
+#email-signup {
+	background-image: url(../images/bg-gradient.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	h2, p { 
+		color: $white;
+	}
+
+	form {
+		label {
+			text-transform: uppercase;
+			margin: 0;
+			color: $white;
+		}
+
+		.form-control {
+			border: 0;
+		}
+	}
+}
+
+/* FOOTER */
+
+footer {
+	background-color: $navy;
+	padding: 5em 0;
+	color: $white;
+
+	a {
+		font-size: .9rem;
+		color: $white;
+	}
+}
+

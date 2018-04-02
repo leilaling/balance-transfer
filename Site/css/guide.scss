@@ -1,0 +1,28 @@
+#guide {
+	img {
+		max-width: 100%;
+
+	}
+	.table-of-contents {
+		list-style-type: decimal;
+		color: $green;
+		font-size: 1em;
+
+		li {
+			margin: 1em 0;
+		}
+
+		a {
+			line-height: 1.5;
+
+			&.active {
+				border-bottom: 2px solid $green;
+			}
+		}
+	}
+
+	a.disabled {
+		opacity: .5;
+	}
+
+}

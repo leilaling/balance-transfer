@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="HandheldFriendly" content="True" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="keywords" content="" />
+<meta name="Author" content="" />
+<meta name="Description" content="" />
+
+<title>Balance Transfer Calculator</title>
+
+<link rel="stylesheet" media="screen" href="../css/reset.css" />
+<link rel="stylesheet" media="screen" href="../css/bootstrap.min.css" />
+<link rel="stylesheet" media="screen" href="../css/styles.css" />
+
+<link rel="shortcut icon" href="" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+</head>
+
+<body id="balance-transfer-calculator">
+
+<div id="wrapper">
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="../">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-right">
+            <li class="nav-item">
+              <a class="nav-link" href="../guide/section-1/">Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../news/">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Calculator</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <h1 class="text-center">Balance Transfer Calculator</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-10">
+        <form id="calculator" class="p-4 p-md-5">
+          <h3 class="text-center">What's Your Credit Profile?</h3>
+          <p class="text-center">If you don’t know your credit score or would like to see all options, select “Unknown."</p>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3 form-check form-check-inline mb-2">
+              <input class="form-check-input" type="radio" name="creditProfileOptions" id="creditExcellent" value="excellent">
+              <label class="form-check-label d-inline-flex justify-content-center" for="creditExcellent">
+                <h5>Excellent</h5>
+                <p>720-850</p>
+              </label>
+            </div>
+            <div class="col-lg-3 form-check form-check-inline mb-2">
+              <input class="form-check-input" type="radio" name="creditProfileOptions" id="creditGood" value="good">
+              <label class="form-check-label d-inline-flex justify-content-center" for="creditGood">
+                <h5>Good</h5>
+                <p>690-719</p>
+              </label>
+            </div>
+            <div class="col-lg-3 form-check form-check-inline mb-2">
+              <input class="form-check-input" type="radio" name="creditProfileOptions" id="creditFair" value="fair">
+              <label class="form-check-label d-inline-flex justify-content-center" for="creditFair">
+                 <h5>Fair</h5>
+                <p>630-689</p>
+              </label>
+            </div>
+            <div class="col-lg-3 form-check form-check-inline mb-2">
+              <input class="form-check-input" type="radio" name="creditProfileOptions" id="creditUnknown" value="unknown">
+              <label class="form-check-label d-inline-flex justify-content-center" for="creditUnknown">
+                 <h5>Unknown</h5>
+                <p>???</p>
+              </label>
+            </div>
+          </div>
+
+          <h3 class="mt-5 text-center">What’s Your Existing Balance?</h3>
+          <p class="text-center">Input your existing balances for up to three credit cards.</p>
+
+          <div class="form-row">
+            <div class="form-group col-md-1">
+              <div class="num text-center">1</div>
+            </div>
+            <div class="form-group col-md-5">
+              <label for="bankName">Bank Name</label>
+              <input type="text" class="form-control" id="bankName" placeholder="Bank Name">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="APR">Bank Name</label>
+              <input type="text" class="form-control" id="APR" placeholder="APR">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="annualFee">Annual Fee</label>
+              <input type="text" class="form-control" id="annualFee" placeholder="Annual Fee">
+            </div>
+          </div>
+           <div class="form-row">
+            <div class="form-group col-md-1">
+              <div class="num text-center"">2</div>
+            </div>
+            <div class="form-group col-md-5">
+              <label for="bankName">Bank Name</label>
+              <input type="text" class="form-control" id="bankName" placeholder="Bank Name">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="APR">Bank Name</label>
+              <input type="text" class="form-control" id="APR" placeholder="APR">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="annualFee">Annual Fee</label>
+              <input type="text" class="form-control" id="annualFee" placeholder="Annual Fee">
+            </div>
+          </div>
+           <div class="form-row">
+            <div class="form-group col-md-1">
+              <div class="num text-center"">3</div>
+            </div>
+            <div class="form-group col-md-5">
+              <label for="bankName">Bank Name</label>
+              <input type="text" class="form-control" id="bankName" placeholder="Bank Name">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="APR">Bank Name</label>
+              <input type="text" class="form-control" id="APR" placeholder="APR">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="annualFee">Annual Fee</label>
+              <input type="text" class="form-control" id="annualFee" placeholder="Annual Fee">
+            </div>
+          </div>
+          <div class="mt-4 text-center">
+            <button type="submit" class="button">Calculate</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Results</h2>
+    <div class="container">
+      <div class="row justify-content-center mt-4">
+        <div class="col-12">
+          <div class="tile-result p-4 mb-4">
+            <h5 class="text-center">U.S. Bank Visa Platinum</h5>
+            <div class="row mt-4 justify-content-lg-center">
+              <div class="col-lg-2">
+                <div class="thumb"></div>
+              </div>
+              <div class="col-lg-2">
+                <label>Lowest Credit Score (Recommended)</label>
+                <p class="value">720</p>
+
+                <label>Highest Credit Score (Recommended)</label>
+                <p class="value">850</p>
+              </div>
+              <div class="col-lg-3">
+                <label>Intro Balance Transfer APR</label>
+                <p class="value">11.24-23.24% (Variable)</p>
+
+                <label>Intro Balance Transfer Period</label>
+                <p class="value">0%</p> 
+
+                <label>Regular Balance Transfer APR</label>
+                <p class="value">18 billing cycles on purchases and balance transfers</p> 
+              </div>
+              <div class="col-lg-2">
+                <label>Balance Transfer Fee</label>
+                <p class="value">3%</p>
+
+                <label>Annual Fee</label>
+                <p class="value">$0</p>         
+              </div>
+              <div class="col-lg-3 text-center">
+                <div class="savings">
+                  <span class="border-left float-left d-none d-md-block d-lg-block"></span>
+                  <span class="border-top d-block d-md-none mb-3"></span>
+                  <div class="p-2">
+                    <p class="mb-4">$2000.99 Saved<br /><span>in interest*</span></p>
+                    <a class="button" href="#">See Details</a>
+                    <p class="fine-print text-left mt-5">*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec imperdiet metus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="text-center">
+    <p>Logo</p>
+    <p><a href="#">About Us</a> | <a href="#">Contact</a> | <a href="#">Sitemap</a> | <a href="#">Privacy Policy</a></p>
+  </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

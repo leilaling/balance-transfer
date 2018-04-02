@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="115px" height="79px" viewBox="0 0 115 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0307692%" x2="100.061538%" y2="50.0307692%" id="linearGradient-2">
+            <stop stop-color="#FFB82A" offset="0%"></stop>
+            <stop stop-color="#FFEA7F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3128%" y1="5918%" x2="13845%" y2="5918%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0049816%" x2="100%" y2="50.0049816%" id="linearGradient-4">
+            <stop stop-color="#A55EEA" offset="0%"></stop>
+            <stop stop-color="#8854D0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Guide-2" transform="translate(-478.000000, -760.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(461.000000, 425.000000)">
+                <g id="mail" transform="translate(18.000000, 336.000000)">
+                    <rect id="Rectangle-path" stroke="#3F3D59" stroke-width="2" fill="url(#linearGradient-1)" transform="translate(49.500000, 38.000000) rotate(-12.600000) translate(-49.500000, -38.000000) " x="6" y="9" width="87" height="58"></rect>
+                    <g id="Group" opacity="0.5" transform="translate(32.000000, 34.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(18.713231, 5.918683) rotate(167.400000) translate(-18.713231, -5.918683) " x="0.669564239" y="4.41011147" width="36.0873333" height="3.01714286"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(34.000000, 40.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(18.009784, 5.511235) rotate(167.400000) translate(-18.009784, -5.511235) " x="0.054784484" y="4.02960206" width="35.91" height="2.96326531"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(34.000000, 45.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(12.868628, 4.631632) rotate(167.400000) translate(-12.868628, -4.631632) " x="0.319565204" y="3.31163241" width="25.098125" height="2.64"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(6.000000, 18.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(12.637976, 3.969995) rotate(167.400000) translate(-12.637976, -3.969995) " x="0.573459588" y="3.00999503" width="24.1290323" height="1.92"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(7.000000, 21.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(12.516480, 3.807738) rotate(167.400000) translate(-12.516480, -3.807738) " x="0.451963623" y="2.84773815" width="24.1290323" height="1.92"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(8.000000, 25.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(9.000760, 3.241221) rotate(167.400000) translate(-9.000760, -3.241221) " x="0.385305311" y="2.34122103" width="17.2309091" height="1.8"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-2)" opacity="0.8" transform="translate(76.500000, 14.500000) rotate(-12.600000) translate(-76.500000, -14.500000) " x="70" y="8" width="13" height="13"></rect>
+                    <rect id="Rectangle-path" stroke="#3F3D59" stroke-width="2" fill="url(#linearGradient-3)" x="26" y="19" width="87" height="58"></rect>
+                    <g id="Group" opacity="0.5" transform="translate(51.000000, 47.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(18.800111, 2.410000) rotate(180.000000) translate(-18.800111, -2.410000) " x="0.756444444" y="0.65" width="36.0873333" height="3.52"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(51.000000, 53.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(18.800111, 2.130000) rotate(180.000000) translate(-18.800111, -2.130000) " x="0.756444444" y="0.37" width="36.0873333" height="3.52"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(51.000000, 58.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(13.296562, 2.530000) rotate(180.000000) translate(-13.296562, -2.530000) " x="0.7475" y="0.77" width="25.098125" height="3.52"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(31.000000, 24.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(12.661290, 1.146667) rotate(180.000000) translate(-12.661290, -1.146667) " x="0.596774194" y="0.346666667" width="24.1290323" height="1.6"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(31.000000, 27.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(12.661290, 1.073333) rotate(180.000000) translate(-12.661290, -1.073333) " x="0.596774194" y="0.273333333" width="24.1290323" height="1.6"></rect>
+                    </g>
+                    <g id="Group" opacity="0.5" transform="translate(31.000000, 30.000000)" fill="#3F3D59">
+                        <rect id="Rectangle-path" transform="translate(9.212727, 0.866667) rotate(180.000000) translate(-9.212727, -0.866667) " x="0.597272727" y="0.0666666667" width="17.2309091" height="1.6"></rect>
+                    </g>
+                    <rect id="Rectangle-path" stroke="#FFFFFF" fill="url(#linearGradient-4)" x="94" y="24" width="13" height="13"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

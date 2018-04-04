@@ -240,14 +240,22 @@ p.date, p.author {
       border: 1px solid #1DD1A1;
       color: #1DD1A1; }
   #balance-transfer-calculator #calculator .num {
-    border-radius: 44px;
+    border-radius: 35px;
     background-color: #DFE6E9;
-    height: 44px;
-    width: 44px;
+    height: 35px;
+    width: 35px;
     color: #FFFFFF;
     font-size: 1.2rem;
-    line-height: 2.25;
-    margin-top: .75em; }
+    line-height: 1.75;
+    margin: 1.25em auto 0; }
+  #balance-transfer-calculator #calculator a.clear {
+    color: red;
+    font-size: 1em;
+    line-height: 1.75;
+    margin: .25em auto;
+    display: block;
+    text-align: center;
+    cursor: pointer; }
 #balance-transfer-calculator .tile-result {
   border: 1px solid #DFE6E9;
   position: relative;

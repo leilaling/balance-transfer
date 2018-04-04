@@ -97,62 +97,32 @@
           <h3 class="mt-5 text-center">What’s Your Existing Balance?</h3>
           <p class="text-center">Input your existing balances for up to three credit cards.</p>
 
-          <div class="form-row">
-            <div class="form-group col-md-1">
-              <div class="num text-center">1</div>
+            <div id="credit-balance">
+              <div class="form-row card-balance">
+                <div class="form-group col-md-6">
+                  <label for="bankName">Bank Name</label>
+                  <input type="text" class="form-control bankName" placeholder="Bank Name">
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="APR">APR</label>
+                  <input type="text" class="form-control APR" placeholder="APR">
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="annualFee">Annual Fee</label>
+                  <input type="text" class="form-control annualFee" placeholder="Annual Fee">
+                </div>
+                <div class="form-group col-md-1">
+                  <label></label>
+                  <a class="clear">X</a>
+                </div>
+              </div>
             </div>
-            <div class="form-group col-md-5">
-              <label for="bankName">Bank Name</label>
-              <input type="text" class="form-control" id="bankName" placeholder="Bank Name">
+            <a href="#" class="add-card">+ Add Another Card</a>
+            <div class="mt-4 text-center">
+              <button type="submit" class="button">Calculate</button>
             </div>
-            <div class="form-group col-md-3">
-              <label for="APR">Bank Name</label>
-              <input type="text" class="form-control" id="APR" placeholder="APR">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="annualFee">Annual Fee</label>
-              <input type="text" class="form-control" id="annualFee" placeholder="Annual Fee">
-            </div>
-          </div>
-           <div class="form-row">
-            <div class="form-group col-md-1">
-              <div class="num text-center"">2</div>
-            </div>
-            <div class="form-group col-md-5">
-              <label for="bankName">Bank Name</label>
-              <input type="text" class="form-control" id="bankName" placeholder="Bank Name">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="APR">Bank Name</label>
-              <input type="text" class="form-control" id="APR" placeholder="APR">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="annualFee">Annual Fee</label>
-              <input type="text" class="form-control" id="annualFee" placeholder="Annual Fee">
-            </div>
-          </div>
-           <div class="form-row">
-            <div class="form-group col-md-1">
-              <div class="num text-center"">3</div>
-            </div>
-            <div class="form-group col-md-5">
-              <label for="bankName">Bank Name</label>
-              <input type="text" class="form-control" id="bankName" placeholder="Bank Name">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="APR">Bank Name</label>
-              <input type="text" class="form-control" id="APR" placeholder="APR">
-            </div>
-            <div class="form-group col-md-3">
-              <label for="annualFee">Annual Fee</label>
-              <input type="text" class="form-control" id="annualFee" placeholder="Annual Fee">
-            </div>
-          </div>
-          <div class="mt-4 text-center">
-            <button type="submit" class="button">Calculate</button>
-          </div>
-        </form>
-      </div>
+          </form>
+        </div>
     </div>
   </div>
 
@@ -219,6 +189,8 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="../js/calculator.js"></script>
 
 </body>
 </html>

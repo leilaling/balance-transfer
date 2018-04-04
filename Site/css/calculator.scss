@@ -57,14 +57,24 @@
 		}
 
 		.num {
-			border-radius: 44px;
+			border-radius: 35px;
 			background-color: $gray;
-			height: 44px;
-			width: 44px;
+			height: 35px;
+			width: 35px;
 			color: $white;
 			font-size: 1.2rem;
-			line-height: 2.25;
-			margin-top: .75em;
+			line-height: 1.75;
+			margin: 1.25em auto 0;
+		}
+
+		a.clear {
+			color: red;
+			font-size: 1em;
+			line-height: 1.75;
+			margin: .25em auto;
+			display: block;
+			text-align: center;
+			cursor: pointer;
 		}
 	}
 

@@ -252,7 +252,7 @@ p.date, p.author {
     color: red;
     font-size: 1em;
     line-height: 1.75;
-    margin: .25em auto;
+    margin: auto;
     display: block;
     text-align: center;
     cursor: pointer; }

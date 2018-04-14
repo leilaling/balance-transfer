@@ -76,6 +76,14 @@ form .form-control {
   border-radius: 0; }
 
 /* NAV */
+nav a#logo {
+  text-indent: -9999px;
+  display: block;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 42px;
+  width: 210px; }
 nav.navbar {
   padding: 0; }
 nav .navbar-nav .nav-item {

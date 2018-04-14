@@ -97,6 +97,16 @@ form {
 
 /* NAV */
 nav {
+	a#logo {
+		text-indent: -9999px;
+		display: block;
+		background-image: url(../images/logo.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 42px;
+		width: 210px;
+	}
+
 	&.navbar {
 		padding: 0;
 	}
